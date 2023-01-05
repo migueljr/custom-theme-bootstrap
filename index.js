@@ -6,8 +6,8 @@ var path = require('path');
 var bodyParser = require('body-parser')
 var cors =  require('cors');
 
-app.listen(8054, () => {
-  console.log("Application started and Listening on port 3000");
+app.listen(80, () => {
+  console.log("Application started and Listening on port 80");
 });
 
 app.use(bodyParser.json())
